@@ -1,4 +1,4 @@
-"""this program reverses a string using recursion """
+""" this program reverses a string using recursion """
 #!/usr/bin/env python3
 
 # Created by: Mr. Coxall
@@ -8,6 +8,7 @@ def reverse_string(string_to_reverse: str) -› str:
         @param accepts a string
         @return the string backwards, using recursion
     """
+
     if string_to_reverse == "":
         return ""
     else:
